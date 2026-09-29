@@ -1,4 +1,4 @@
-# Delhi Metro Ticketing System Made by Python
+# Delhi Metro Ticketing System Made in Python
 
 A console-based transit route planning and ticketing application developed in Python. The system simulates commuter interactions across key Delhi Metro corridors (Yellow Line, Blue Line, and Red Line), offering corridor exploration, automated station matching, slab-based fare computation with peak rush-hour adjustments, and metro smart card transactions.
 
