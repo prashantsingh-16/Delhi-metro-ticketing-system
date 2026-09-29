@@ -32,8 +32,8 @@ while True:
 
         stations.show_stations_in_line(line_choice)
         
-        start_input = input("\nenter boarding station: ")
-        end_input = input("enter destination station: ")
+        start_input = input("\nenter boarding station name: ")
+        end_input = input("enter destination station name: ")
 
         start = stations.find_station(start_input, active_stations)
         end = stations.find_station(end_input, active_stations)
