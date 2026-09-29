@@ -59,6 +59,7 @@ def show_stations_in_line(line_choice):
     print("----------------------------------------")
 
 def find_station(user_input, stations_list):
+    # removes spaces and match lower case so caps letter dont break the progrm
     clean_input = user_input.strip().lower()
     for s in stations_list:
         if s.lower() == clean_input:

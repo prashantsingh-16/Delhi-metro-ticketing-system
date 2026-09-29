@@ -51,6 +51,7 @@ while True:
             print("error: invalid hour. enter between 0 and 23.")
             continue
 
+        # calculate the stops and price based on travel hour
         path, stops, time = route.get_journey(start, end, active_stations)
         base, extra, total, is_rush = fare.get_ticket_fare(stops, hour)
 
@@ -72,6 +73,7 @@ while True:
         print("total fare      : rs", total)
         print("----------------------------")
 
+        # handle card or cash payment
         pay = input("\ndo you want to pay with smart card? (y/n) or cash: ")
         if pay == "y" or pay == "Y":
             card_no = input("enter card number(6 digit no.): ")
