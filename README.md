@@ -2,8 +2,6 @@
 
 a simple terminal project made in python that acts like a metro ticket counter it lets users pick a metro line plan a route see stops and pay using cash or metro smart card
 
----
-
 ## what it does
 
 this is a basic college project made using basic python concepts like loops dicts and functions without any external libaries the project has 4 files
@@ -13,7 +11,12 @@ this is a basic college project made using basic python concepts like loops dict
 * fare.py calculates the fare based on stops and rush hour
 * main.py runs the main menu loop and user inputs
 
----
+## tech used
+
+* python 3
+* vs code or any basic text editor
+* basic concepts like while loops if else conditions list and dictionary
+* no extra packages or pip install needed just pure standard python
 
 ## main features
 
@@ -28,8 +31,6 @@ this is a basic college project made using basic python concepts like loops dict
 * 10% extra rush hour charge during morning 8 to 10 and evning 17 to 20
 * supports smart card deduction and cash option
 
----
-
 ## how to run
 
 1 download all the files and put them in one single folder
@@ -39,8 +40,6 @@ this is a basic college project made using basic python concepts like loops dict
 ```bash
 python main.py
 ```
-
----
 
 ## test cases to check
 
